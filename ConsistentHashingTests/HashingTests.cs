@@ -1,6 +1,6 @@
 using ConsistentHashing;
 
-namespace ConsistentHasingTests;
+namespace ConsistentHashingTests;
 
 public class HashingTests
 {
