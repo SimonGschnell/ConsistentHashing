@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsistentHashing", "ConsistentHashing\ConsistentHashing.csproj", "{808753D5-0F3E-43FB-8376-1492F447B1F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsistentHashingTests", "ConsistentHashingTests\ConsistentHashingTests.csproj", "{5A53D51B-81C0-4EC2-ABAF-3802259EECCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{808753D5-0F3E-43FB-8376-1492F447B1F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{808753D5-0F3E-43FB-8376-1492F447B1F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{808753D5-0F3E-43FB-8376-1492F447B1F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{808753D5-0F3E-43FB-8376-1492F447B1F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A53D51B-81C0-4EC2-ABAF-3802259EECCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A53D51B-81C0-4EC2-ABAF-3802259EECCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A53D51B-81C0-4EC2-ABAF-3802259EECCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A53D51B-81C0-4EC2-ABAF-3802259EECCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
