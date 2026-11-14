@@ -4,9 +4,14 @@ using System.Text;
 
 namespace ConsistentHashing;
 
-public static class Hashing
+public interface IHashing
 {
-    public static uint GenerateHash(string input)
+    uint GenerateHash(string input);
+}
+
+public class Hashing : IHashing
+{
+    public uint GenerateHash(string input)
     {
         var inputBytes = Encoding.UTF8.GetBytes(input);
         var md5Hash = MD5.HashData(inputBytes);
